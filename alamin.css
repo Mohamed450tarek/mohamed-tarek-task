@@ -1,0 +1,136 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+box-sizing: border-box;
+font-family: Quicksand;
+ 
+ }
+ body{
+    background: url("background.png");
+height: 100vh ;
+width: 100%;
+ box-sizing: border-box;
+
+
+ }
+.title h3{
+    font-family: Sedgwick Ave ; 
+    font-size:  50px;
+}
+.headbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px ;
+}
+.bar ul li {
+    display: inline-block;
+    padding: 0px   10px;
+    font-size: 20px;
+}
+.search input {
+
+    text-align: center ;
+    border-radius: 10px ;
+    font-size: 17px;
+    padding: 4px;
+
+}
+.search i { 
+    position:  relative; 
+    left: 29px;
+    top: 2px;
+}
+section{ display: flex;
+justify-content: space-between;
+ align-items: center;
+text-align: center;}
+.textcontent{ 
+    position:  relative ;
+   bottom: 65px;
+   left: 65px;
+   font-size: 30px;
+}
+.textcontent h2 {
+    position: relative;
+    right: 23px;
+}
+.textcontent .name {
+
+    font-size: 50px;
+    position: relative;
+    left: 107px;
+    top: -18px;
+}
+.textcontent .manger { 
+  
+    padding: 10px 0px ;
+}
+.some-of-text { 
+    color: #1de2d1;
+    margin-left: 10px;
+    white-space: nowrap ;
+    overflow: hidden;
+    animation: typing 5s steps(29) infinite;
+  
+}
+@keyframes typing {
+    0%{ width: 0ch;}
+    50% {width:29ch;}
+    100% { width: 0ch ;}
+}
+.buttom  { 
+    position: relative;
+    bottom:  220px ;
+    left: 145px ;
+    width: 400px;
+}
+.buttom button { 
+    margin:  5px;
+   width: 9em; 
+   height: 3em;
+   border-radius: 15px;
+    
+   border: none;
+   cursor: pointer;
+    
+   z-index:  4;
+   box-shadow: 6px 6px 12px #c5c5c5,-6px -6px 12px #ffffff;
+   position: relative;
+   top: 0px;
+   right: 0px; 
+}
+ 
+.buttom button:hover {
+    width: 9em;
+    background-image: linear-gradient(to right, #0f66d8 0%,#ff00bf 100% );
+  /*  background-image: linear-gradient(to right, #0fd850 0%,#f9f047 100% );*/
+    transition: .5s ease;
+
+}
+.link {
+     position: relative;
+     top:200px ;
+     right: 20px;
+     display: flex;
+     justify-content: flex-end ;
+     align-content: end;
+   
+}
+.some-of-link{
+font-size: 25px;
+color: black;
+list-style: none;
+}
+.some-of-link ul  {
+ list-style: none ;
+ color: black ;
+ 
+}
+.some-of-link ul li a {
+    color: black ; 
+  transition: 2s;
+}
+.some-of-link ul li :hover {
+    color: blue ;
+}
